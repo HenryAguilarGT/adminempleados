@@ -1,8 +1,8 @@
 <template>
 	<div id="dashboard">
-		<ul class="collection with header">
+		<ul class="collection with-header">
 			<li class="collection-header">
-				<h4>Empleados</h4>
+				<h4 class="super-header">Empleados</h4>
 			</li>
 			<li v-for="empleado in empleados" v-bind:key="empleado.id" class="collection-item">
 				<div class="chip">{{empleado.dept}}</div>
